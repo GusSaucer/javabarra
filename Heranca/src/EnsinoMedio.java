@@ -6,6 +6,7 @@ public class EnsinoMedio extends Aluno{
         this.espec=espec;
     }
 
+    @Override // -> não é mais obrigatório
     public void mostrarAluno() {
         System.out.println("Nome: " + nome);
         System.out.println("Média: " + media);
